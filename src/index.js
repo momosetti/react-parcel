@@ -1,12 +1,14 @@
 import React,{Component} from "react";
 import ReactDom from "react-dom";
+import './scss/app'
 
 
 class HelloWorld extends Component{
     render(){
         return(
-            <div>
-                <h1>Helloworld</h1>
+            <div className="content">
+                <h1>Hi this is React & Parcel</h1>
+                <p>So start doing a cool things</p>
             </div>
         )
     }

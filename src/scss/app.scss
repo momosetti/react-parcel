@@ -4,15 +4,19 @@ $bg_color:#f1f1f1;
     margin: 0;
     padding: 0;
 }
+body{
+    background: $bg_color;
+    font-family: 'Segoe UI';
+    padding: 50px 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
 .content{
-    font-size: 16px;
-    background: #f1f1f1;
     text-align: center;
-    padding: 20px 5px;
-    margin: 2px 90px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     h1{
-        color:black;
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .8em;
     }
 }
