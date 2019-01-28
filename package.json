@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel public/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "babel-preset-react": "^6.24.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
   }
 }
