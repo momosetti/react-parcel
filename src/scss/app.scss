@@ -1,0 +1,18 @@
+$primaryColor:#9ddd26;
+$bg_color:#f1f1f1;
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    font-size: 16px;
+    background: #f1f1f1;
+    text-align: center;
+    padding: 20px 5px;
+    margin: 2px 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1{
+        color:black;
+        font-size: 2em;
+    }
+}
