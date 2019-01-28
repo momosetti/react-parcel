@@ -1,2 +1,2 @@
 # reactParcelBiolerplate
-Configuration set up for react and Parcel bundler
+Configuration and set up for React.js, Parcel bundler and Sass
