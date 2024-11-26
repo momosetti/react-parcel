@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html -d build"
+    "build": "parcel build public/index.html -d build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,8 @@
   "dependencies": {
     "node-sass": "^7.0.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
-  }
+    "react-dom": "^16.7.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
